@@ -1,0 +1,40 @@
+body {
+    color:black
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #8be0fa;
+}
+
+
+nav > a {
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+    width: 200px;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+	width: 100%;
+}
+
+nav ul li {
+	text-align: center;
+	width: 100%;
+}
+
+nav ul li a {
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-decoration: none;
+	color: #FFFFFF;
+}
