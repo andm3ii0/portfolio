@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	font-family: 'Oxigen', sans-serif;
+	color: white;
+	background-color: #b7d8d2;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: #202a2b;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:-webkit-any-link {
+	color: white;
+}
+
+
+nav {
+	background-color: #3e5151;
+	padding: 5px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+.nome {
+	font-weight: bold;
+	font-size: 35px;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav ul li {
+	font-size: 20px;
+	display: flex;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#Topo {
+	background-color: #b7d8d2;
+	color: #202a2b;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px 0px 10px;
+}
+
+h1 {
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+
+#Topo p {
+	max-width: 600PX;
+	font-size: 20PX;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#Sobre {
+	background-color: #4a686a;
+	color: #b7d8d2;
+	margin: 20px 15px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#Sobre p {
+	max-width: 700PX;
+	font-size: 20PX;
+	text-align: center;
+}
+
+#Habilidades {
+
+	background-color: #62a5a5;
+	border-radius: 10px;
+	margin: 20px 15px;
+	padding-left: 200px;
+	padding-right: 200px;
+
+}
+
+#Habilidades h2, #Sobre h2 {
+	padding: 19.920px 0px;
+	margin-bottom: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#Habilidades p {
+	max-width: 600PX;
+	font-size: 20PX;
+	text-align: center;
+}
+
+#Projetos {
+	background-color: #4a686a;
+	color: #b7d8d2;
+	margin: 0px 15px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 30px;
+	margin: 20px 15px;
+}
+
+.img-perfil img {
+	max-height: 300px;
+
+}
+
+.Habilidades, .Habilidades2 {
+	-webkit-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
+	color: #b7d8d2;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	margin: 16px 0;
+	
+}
+
+.Habilidades {
+	background-color: #202a2b;
+	flex-direction: row-reverse;
+
+}
+
+.Habilidades2 {
+	background-color: #202a2b;
+	flex-direction: row;
+
+}
+
+.img img {
+	width: 200px;
+}
+
+.Conteudo {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	flex: 1;
+}
