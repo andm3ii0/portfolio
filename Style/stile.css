@@ -1,40 +1,109 @@
-body {
-    color:black
+body{
+	font-family: 'Oxigen', sans-serif;
 }
+
+h1, h2, h3 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
 
 nav {
 	display: flex;
-	flex-direction: row;
 	align-items: center;
-	background-color: #8be0fa;
+	justify-content: space-between;
 }
 
-
-nav > a {
-	flex-direction: column;
-	align-items: center;
-	padding: 10px;
-    width: 200px;
+.nome {
+	font-weight: bold;
+	font-size: 35px;
 }
 
 nav ul {
 	display: flex;
-	flex-direction: row;
-	align-items: center;
-	list-style: none;
-	padding: 0;
-	width: 100%;
 }
 
 nav ul li {
-	text-align: center;
-	width: 100%;
+	font-size: 20px;
+	display: flex;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
-nav ul li a {
-	display: inline-block;
-	padding: 10px 0;
-	width: 100%;
-	text-decoration: none;
-	color: #FFFFFF;
+#Topo {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+#Topo p {
+	max-width: 600PX;
+	font-size: 20PX;
+	text-align: center;
+}
+
+#Sobre {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+#Sobre p {
+	max-width: 600PX;
+	font-size: 20PX;
+	text-align: center;
+}
+
+#Habilidades {
+	padding-left: 200px;
+	padding-right: 200px;
+	background-color: dimgrey;
+}
+
+#Habilidades p {
+	max-width: 600PX;
+	font-size: 20PX;
+	text-align: center;
+}
+
+.Habilidades {
+	background-color: azure;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+	margin: 16px 0;
+}
+.Habilidades2 {
+	background-color: azure;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	margin: 16px 0;
+}
+
+.img img {
+	width: 200px;
+}
+
+.Conteudo {
+	display: flex;
+	flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+	flex: 1;
 }
