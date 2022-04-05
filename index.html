@@ -8,94 +8,117 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;1,700&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet">
     <title>M3ii0</title>
-    <!-- <link rel="stylesheet" href="Style/reset.css"> -->
+    <link rel="stylesheet" href="Style/reset.css">
     <link rel="stylesheet" href="Style/style.css">
 </head>
 
 <body>
     <header>
-        <a class="nome" href="#">Futuro desenvolvedor web</a>
-        <p>Becoming a Programer!</p>
+        <div class="header">
+            <a class="header-title" href="#">Futuro desenvolvedor web</a>
+            <p>Becoming a Programer!</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#Habilidades">Habilidades</a></li>
+                <li><a href="#Projetos">Projetos</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#Sobre">Sobre</a></li>
-            <li><a href="#Habilidades">Habilidades</a></li>
-            <li><a href="#Projetos">Projetos</a></li>
-        </ul>
-    </nav>
+
 
     <section id="Topo">
-        <h1>Anderson Mello</h1>
+        <h1 class="titulo">Anderson Mello</h1>
         <p>Atualmente esrudando na <strong>Trybe</strong>, desenvolvendo e aprimorando técnicas de progração com foco em
             Software Developer</p>
     </section>
 
-    <section id="Sobre">
-        <div class="img-perfil"><img src="" alt="photo de Anderson Mello"></div>
-        <div class="sobre">
-        <h2>Quem sou eu</h2>
-        <p>Me chamo Anderson, sou a personificação da independência, fiquei órfão aos 11 e ganhei independência
-            os 15. Atualmente moro em Recife-PE, tenho muitos hobbies, amo jogar videogame, sou fanático por musica
-            clássica, e tenho muitos projetos de via incompletos que ainda pretendo retomar, como continuar aprendendo
-            piano e clarinete. Embora não tenha muito talento eu ainda insisto muito na área de design, sei muita coisa
-            sobre Photoshop e illustrator, e mesmo não tendo muita criatividade sei fazer bastante coisa com os dois.
-        </p>
-    </div>
-    </section>
+    <main>
+        <section id="Sobre">
+            <div class="content">
+                <div class="img-perfil"><img src="images/capture000011 copiar (1).png" alt="photo de Anderson Mello">
+                </div>
+                <div class=sobre-content>
+                    <h2>Quem sou eu</h2>
 
-    <section id="Habilidades">
-
-        <h2>O que eu sei</h2>
-
-        <div class="Habilidades">
-            <Div class="img" ><img src="images/habilidade.png" alt="icone"></Div>
-            
-            <div class="Conteudo">
-                <h3>Melhores Habilidades</h3>
-                <p>Sou bastante "leigo" ainda, mas sei o básico sobre HTML e mais Básico ainda sobre CSS. Sei
-                    bastante
-                    (ou
-                    costumava saber) sobre Java e uma ou outra biblioteca como java.lang, também sei o básico de
-                    Ruby e
-                    o
-                    básico sobre Java Script (quando digo o básico, quero dizer escrever "Hello World" no console
-                    '-')
-                </p>
+                    <p> Me chamo Anderson, sou a personificação da independência,
+                        moro sozinho desde
+                        os 15 anos de idade. <br>Atualmente moro em <b>Recife-PE</b> e tenho muitos hobbies. Amo jogar
+                        videogame, gosto muito de música
+                        clássica, e tenho muitos projetos de via incompletos que ainda pretendo retomar, como
+                        continuar
+                        aprendendo
+                        piano e clarinete. Embora não tenha muito talento eu ainda insisto muito na área de
+                        design, sei
+                        muita coisa
+                        sobre Photoshop e illustrator, e mesmo não tendo muita criatividade sei fazer bastante
+                        coisa com
+                        os
+                        dois.
+                    </p>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <div class="Habilidades2">
-            <div class="img"><img src="images/habilidade (1).png" alt="icone"></div>
+        <section id="Habilidades">
 
-            <div class="Conteudo">
-                <h3>Outras Habilidades</h3>
-                <p>Já tentei aprender muitas coisas na vida, sempre fui curioso, já fiz alguns cursinhos de youtube
-                    sobre
-                    photoshop, já fui auto didata no piano, fia aulas de clarinete, fui o melhor aluno da escola
-                    (não
-                    por
-                    nota mas por contribuições como professor substituto e etc.) durante os 3 anos do ensino médio,
-                    fui
-                    o
-                    melhor aluno de matemática durante toda minha vida '-', e uma habilidade que eu gosto muito é
-                    que
-                    quando
-                    me interesso por algo eu tenho uma enorme facilidade de aprender.</p>
+            <h2>O que eu sei</h2>
+
+            <div class="Habilidades">
+                <Div class="img"><img src="images/habilidade.png" alt="icone"></Div>
+
+                <div class="Conteudo">
+                    <h3>Melhores Habilidades</h3>
+                    <p>Sou bastante "leigo" ainda, mas sei o básico sobre HTML e mais Básico ainda sobre CSS. Sei
+                        bastante
+                        (ou
+                        costumava saber) sobre Java e uma ou outra biblioteca como java.lang, também sei o básico de
+                        Ruby e
+                        o
+                        básico sobre Java Script (quando digo o básico, quero dizer escrever "Hello World" no console
+                        '-')
+                    </p>
+                </div>
             </div>
-        </div>
 
-    </section>
+            <div class="Habilidades2">
+                <div class="img"><img src="images/habilidade (1).png" alt="icone"></div>
 
-    <section id="Projetos">
-        <h2>Projetos</h2>
-        <Div>
-            <p>Coming Soon...</p>
-        </Div>
-    </section>
+                <div class="Conteudo">
+                    <h3>Outras Habilidades</h3>
+                    <p>Já tentei aprender muitas coisas na vida, sempre fui curioso, já fiz alguns cursinhos de youtube
+                        sobre
+                        photoshop, já fui auto didata no piano, fia aulas de clarinete, fui o melhor aluno da escola
+                        (não
+                        por
+                        nota mas por contribuições como professor substituto e etc.) durante os 3 anos do ensino médio,
+                        fui
+                        o
+                        melhor aluno de matemática durante toda minha vida '-', e uma habilidade que eu gosto muito é
+                        que
+                        quando
+                        me interesso por algo eu tenho uma enorme facilidade de aprender.</p>
+                </div>
+            </div>
 
+        </section>
+
+        <section id="Projetos">
+            <h2>Projetos</h2>
+            <Div class="projetos-content">
+                <p>Coming Soon...</p>
+            </Div>
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="#Topo">Voltar ao topo</a></p>
+    </footer>
 
 </body>
 

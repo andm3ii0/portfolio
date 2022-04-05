@@ -1,9 +1,256 @@
-* {
-	margin: 0;
-	padding: 0;
-}
+/* a:-webkit-any-link {
+	color: #D3DBDA;
+} */
+
+
 
 body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F7F9F7;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+b {
+	font-weight: 500;
+}
+
+header {
+	display: flex;
+	flex-direction: column
+}
+
+.header {
+	background-color: #D3DBDA;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 7px 30px 10px;
+}
+
+.header-title {
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.header p {
+	font-weight: 500;
+	font-size: 20px;
+}
+
+a:-webkit-any-link {
+	color: #080808;
+
+}
+
+.header a:-webkit-any-link {
+	color: #121212;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+	background-color: #EBEADE;
+	padding: 5px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+nav ul {
+	display: flex;
+}
+
+nav ul li {
+	font-size: 20px;
+	display: flex;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+nav ul li a:-webkit-any-link {
+	color: #080808;
+}
+
+#Topo {
+	background-color: #F7F9F7;
+	color: #202a2b;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px 0px 10px;
+}
+
+.titulo {
+	font-weight: 100;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+#Topo p {
+	max-width: 50%;
+	font-weight: 300;
+	font-size: 20PX;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+main {
+	display: flex;
+	flex-direction: column
+}
+
+#Sobre,
+#Habilidades,
+#Projetos {
+	background-color: #4a686a;
+	color: #4a686a;
+	margin: 20px 1.5%;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#Sobre {
+	background-color: #F3F5ED;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+
+.img-perfil img {
+	border-radius: 10px;
+}
+
+.img-perfil,
+.sobre-content {
+	-webkit-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
+
+	background-color: #D2D2D2;
+	color: #080808;
+	border-radius: 10px;
+	height: 400px;
+}
+
+.img-perfil {
+	display: flex;
+	margin-left: 10px;
+	height: 400px;
+}
+
+.sobre-content {
+	margin-right: 10px;
+}
+
+.sobre-content h2,
+#Habilidades h2,
+#Projetos h2 {
+	text-align: center;
+	font-weight: 500;
+	font-size: 25px;
+	margin: 40px 0px 30px;
+}
+
+.sobre-content p {
+	text-align: left;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 100px;
+	margin-right: 150px;
+}
+
+#Habilidades,
+#Projetos {
+	-webkit-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
+	background-color: #F3F5ED;
+}
+
+.Habilidades,
+.Habilidades2 {
+	background-color: #D3DBDA;
+	color: #080808;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	margin: 16px 0;
+
+}
+
+.Habilidades {
+	flex-direction: row-reverse;
+	text-align: left;
+	padding-left: 100px;
+	margin-left: 100px;
+	margin-right: 30px;
+}
+
+.Habilidades2 {
+	flex-direction: row;
+	text-align: right;
+	padding-right: 100px;
+	margin-right: 100px;
+	margin-left: 30px;
+	margin-bottom: 25px;
+
+}
+
+.Habilidades h3,
+.Habilidades2 h3 {
+	text-align: center;
+	font-weight: 500;
+	font-size: 20px;
+	margin: 20px 0px 30px;
+}
+
+.Habilidades p,
+.Habilidades2 p {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 25px;
+	margin-bottom: 15px;
+}
+
+.img img {
+	width: 200px;
+}
+
+#Projetos {
+	background-color: #D2D2D2;
+}
+
+#Projetos h2 {
+	color: #080808;
+}
+
+.projetos-content p {
+	color: #121212;
+	font-weight: 400;
+	font-size: 20px;
+	padding: 70px 0px;
+}
+
+footer {
+	background-color: #EBEADE;
+	text-align: center;
+	font-weight: 600;
+	font-size: 18px;
+	padding: 20px 0px;
+}
+
+
+/* body {
 	margin: 0;
 	font-family: 'Oxigen', sans-serif;
 	color: white;
@@ -22,10 +269,11 @@ ul {
 	margin: 0;
 }
 
-header {
-	background-color: #202a2b;
+.header {
+	background-color: #D3DBDA;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	padding: 5px 30px;
 }
 
@@ -39,7 +287,7 @@ a:-webkit-any-link {
 
 
 nav {
-	background-color: #3e5151;
+	background-color: #EBEADE;
 	padding: 5px 0;
 	display: flex;
 	align-items: center;
@@ -174,4 +422,4 @@ h1 {
 	flex-wrap: nowrap;
 	align-items: center;
 	flex: 1;
-}
+} */
